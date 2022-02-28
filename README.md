@@ -2,8 +2,8 @@
 ## Data Analysis Using SQL
 1. Show all customer records
    >SELECT * FROM customers;
-2. Show all transaction records
-   >SELECT * FROM transactions;
+2. Show all transaction records upto 5
+   >SELECT * FROM transactions limit 5;
 3. Show total number of customers
    >SELECT count(*) FROM customers;
 4. Show transactions for chennai market ( Market code for chennai is Mark001)
