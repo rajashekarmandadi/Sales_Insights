@@ -13,7 +13,7 @@
 6. Show transactions where currency is US dollars
    >SELECT * FROM transactions WHERE currency="USD"
 7. Show transactions in 2020 join by date table
-   >SELECT transactions.*, date.* FROM transactions INNER JOIN date ON transactions.order_date=date.date WHERE date.year=2020;
+   >SELECT transactions. * , date. * , FROM transactions INNER JOIN date ON transactions.order_date=date.date WHERE date.year=2020;
 8. Show total revenue in year 2020,
    >SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date WHERE date.year=2020 and transactions.currency="INR\r" or transactions.currency="USD\r";
 9. Show total revenue in year 2020, January Month,
